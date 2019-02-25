@@ -1,6 +1,7 @@
 #!/bin/bash
 
 cd application
+composer require "mapbender/digitizer"
 php bin/composer install -o --no-scripts --no-suggest
 php bin/composer run build-bootstrap
 php bin/composer init-example
