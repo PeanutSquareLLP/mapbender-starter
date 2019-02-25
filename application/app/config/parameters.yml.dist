@@ -3,10 +3,10 @@ parameters:
     database_driver:   pdo_pgsql
     database_host:     localhost
     database_port:     5432
-    database_name:     mapbender
+    database_name:     mapbender_db
     database_path:     ~
-    database_user:     postgres
-    database_password: root
+    database_user:     mapbender
+    database_password: lPD@dp@129
 
     mailer_transport:  smtp
     mailer_host:       localhost
