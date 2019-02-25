@@ -1,11 +1,12 @@
 parameters:
-    database_driver:   pdo_sqlite
-    database_host:     ~
-    database_port:     ~
-    database_name:     ~
-    database_path:     %kernel.root_dir%/db/demo.sqlite
-    database_user:     ~
-    database_password: ~
+    # database-connection "default"
+    database_driver:   pdo_pgsql
+    database_host:     localhost
+    database_port:     5432
+    database_name:     mapbender
+    database_path:     ~
+    database_user:     postgres
+    database_password: root
 
     mailer_transport:  smtp
     mailer_host:       localhost
